@@ -1,33 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-# In[2]:
-
-
 pd.read_csv('content_consumption_2023.csv')
 
-
-# In[20]:
-
-
 csp = pd.read_csv('content_consumption_2023.csv')
-
-
-# In[ ]:
-
-
-
-
-
-# In[23]:
-
 
 from datetime import datetime
 
@@ -58,40 +34,3 @@ plt.xlabel('Hours of the Day')
 plt.ylabel('Content Consumption Count')
 plt.title('Content Consumption Distribution')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
